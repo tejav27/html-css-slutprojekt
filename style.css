@@ -1,0 +1,105 @@
+h1, h2{
+    font-family: 'Frank Ruhl Libre', serif;
+}
+p, textarea{
+    font-family: 'Fira Sans', sans-serif;
+}
+.contact-intro{
+    background-color: #C7DDEA;
+    display: flex;
+    justify-content: center;
+}
+.contact-intro h1{
+    font-size: 10vw;
+    padding: 1rem;
+    margin: 0 15px;
+}
+.img-1{
+    margin: 0 15px;
+}
+.nav-bar ul{
+    /*display: flex;
+    justify-content: space-around;*/
+    display: grid;
+   grid-template-areas: "home ouroffer"
+   "whyus contact";
+}
+.nav-bar li{
+ 
+    list-style-type: none;
+    padding-bottom: 10px;
+    margin: auto;
+    font-weight: bold;
+    /*font-weight: 900;
+    font-size: 1rem;*/
+}
+.nav-bar li:hover{
+    color: black;
+    background-color: lightgray;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #A9A19E;
+    font-family:'Fira Sans', sans-serif ; 
+}
+.text-2{
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    font-size: 5vh;
+}
+.contact-panel{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    background-color: #A9A19E;
+    height: 900px;
+}
+.contact-form label{
+    display: block;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+    
+.Email{
+    display: block;
+    padding: 10px;
+    margin-left: 10%;
+    width: 500px;
+    height: 50px;
+
+}
+.Email input{
+    height: 30px;
+}
+.Yourmessage{
+    display: block;
+    padding: 10px;
+    margin-left: 10%; 
+    
+}
+button{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-left: 60%;
+    margin-bottom: 10px; 
+    border-radius: 20px 20px 20px;
+    border: white;
+    font-weight:bold;
+}
+.address-section{
+    background-color: #FAB131;
+    width: 500px ;
+    height: 300px ;
+    font-family:'Frank Ruhl Libre', serif ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+}
+.address-section h1{
+    font-size: 4rem;
+    padding-bottom: 0px;
+}
