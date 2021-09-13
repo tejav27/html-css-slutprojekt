@@ -50,9 +50,9 @@ p, textarea{
 }
 .contact-panel{
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr, 1fr;
     background-color: #A9A19E;
-    height: 900px;
+ 
 }
 .contact-form label{
     display: block;
@@ -62,7 +62,7 @@ p, textarea{
     font-weight: bold;
 }
     
-.Email{
+.email{
     display: block;
     padding: 10px;
     margin-left: 10%;
@@ -70,7 +70,7 @@ p, textarea{
     height: 50px;
 
 }
-.Email input{
+.email input{
     height: 30px;
 }
 .Yourmessage{
@@ -80,14 +80,13 @@ p, textarea{
     
 }
 button{
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px;
-    margin-left: 60%;
+    margin: 0 auto;
+    display: block;
+    padding: 5% 12%;
     margin-bottom: 10px; 
-    border-radius: 20px 20px 20px;
+    border-radius: 30px;
     border: white;
-    font-weight:bold;
+    font-weight:bolder;
 }
 .address-section{
     background-color: #FAB131;
@@ -102,4 +101,59 @@ button{
 .address-section h1{
     font-size: 4rem;
     padding-bottom: 0px;
+}
+.home-intro{
+    display: grid;
+    grid-template-columns: 2fr, 1fr, 1fr;
+    background-color: #C7DDEA;
+}
+.home-intro-1 h1{
+    color: black;
+}
+.home-intro-1 img{
+   height: 100%;
+   width: 100%;
+   object-fit: contain;
+   
+}
+.home-intro-2{
+    background-color: #F17949;
+    white-space: nowrap;
+    text-align: center;
+    font-weight: bolder;
+}
+.home-intro-3{
+    background-color:#FAB131;
+    white-space: nowrap;
+    text-align: center;
+    font-weight:bolder;
+}
+
+.home-intro-2 h1, .home-intro-3 h1{
+    color: white;
+}
+.main-content{
+    background-color: #A9A19E;
+}
+.main-content h1{
+    color: white;
+    font-weight: bolder;
+    text-align: left;
+}
+.main-content p{
+    font-weight: bold;
+    opacity: 60%;
+}
+.main-content button{
+    align-self: center;
+}
+.flash-cards{
+    
+}
+.card-1{
+    background-color: white;
+}
+#image-card-1{
+    background-color: #C7DDEA;
+    height: fit-content;
 }

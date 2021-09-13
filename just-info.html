@@ -1,0 +1,34 @@
+#F17949-orange
+#FAB131-yellow
+#C7DDEA-light blue
+#A9A19E-light-gray
+responsive layout css
+{
+    max-width:1100px;
+    margin : 20px, auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+centering element in its grid:
+align-self: center;
+justify-self: center;
+
+vh: viewport height.
+1oovh means 100% screen heoght.
+
+.container{
+    display: grid;
+    grid-template-area: "f f f f g h "
+    "g v h j k"
+    "n n g h "
+    . for blank spaces
+}
+.item{
+    grid-area: f;
+}
+
+grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+grid-auto-rows: 100px;
+grid-column: auto/span 2;or just span 2; for horizontal imgs
+grid-auto-flow: dense; to fit all the pics without gaps 
